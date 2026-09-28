@@ -69,7 +69,7 @@ curl -X POST http://127.0.0.1:9090/send
 **POST /delete**
 
 curl -X POST http://127.0.0.1:9090/delete 
--d '{ "delete_message": 101 }'
+-d '{ "id_message": 101 }'
 
 ## Получение истории сообщений
 
